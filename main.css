@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    background-color: rgb(0, 0, 55);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    flex-direction: column;
+}
+
+header{
+    position: relative;
+    bottom: 20%;
+    background-color: rgb(0, 0, 155);
+    padding: 20px 10px;
+    color: #fff;
+    border-bottom: 10px solid rgba(82, 114, 121, 0.815);
+    text-transform: uppercase; /*deixa todo o texto em maiúsculo*/
+    font-style: italic;
+    width: 800px;
+    font-size: 20px;
+    border-radius: 5px;
+    top: 45px;
+    
+}
+
+h1, form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h1, form{
+    background-color: rgb(0, 0, 155);
+    font-weight: bold;
+    align-items: center;
+}
+
+/*-----------------------------*/
+
+.tabela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+
+}
+
+input{
+    background-color: white;
+    border-radius: 3px;
+    padding: 5px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 3px;
+    
+}
+
+#add {
+    background-color: green;
+    color: white;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+#add:hover{
+    transform: scale(1.1);
+}
+
+th{
+    color: white;
+    text-transform: uppercase;
+    padding: 3px 120px;
+    background-color: rgb(0, 0, 155);
+    font-weight: bold;
+    border-radius: 3px;
+    border-bottom: 2px solid rgba(82, 114, 121, 0.815);
+    font-style: italic;
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+tr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+td{
+    color: white;
+    
+    background-color: rgba(82, 114, 121, 0.515);
+    border-radius: 2px 3px;
+    padding: 3px 120px;
+    margin: 2px 30px;
+}       
+
+
+
+
